@@ -1,3 +1,7 @@
+let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+
+document.getElementById('save').addEventListener(touchEvent, salvarCadastro);
+
 document.addEventListener("DOMContentLoaded", function () {
     // Carregar dados do cache ao iniciar a página
     carregarCache();
