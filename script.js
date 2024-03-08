@@ -62,7 +62,7 @@ function carregarCache() {
             cacheDisplay.innerHTML += `
                 <div class="sapato col-lg-3 col-md-4 col-sm-6 text-white">
                     <p><strong>Nome:</strong> ${sapato.nome}</p>
-                    <p><strong>Local:</strong> ${sapato.email}</p>
+                    <p><strong>Local:</strong> ${sapato.local}</p>
                     <p><strong>Cor:</strong> ${sapato.cor}</p>
                     <p><strong>Imagem do Sapato:</strong></p>
                     <img src="${sapato.imagemData}" alt="Imagem do Sapato">
