@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function salvarCadastro() {
     const nome = document.getElementById("nome").value;
-    const local = document.getElementById("email").value;
+    const local = document.getElementById("local").value;
     const cor = document.getElementById("cor").value;
 
     // Validar se todos os campos estão preenchidos
@@ -24,7 +24,7 @@ function salvarCadastro() {
                 const listaSapatos = JSON.parse(cadastrosSapatosCache);
 
                 // Adicionar novo sapato à lista
-                const novoSapato = { nome, email, local, imagemData };
+                const novoSapato = { nome, local, cor, imagemData };
                 listaSapatos.push(novoSapato);
 
                 // Salvar a lista atualizada no cache
